@@ -1,0 +1,10 @@
+.Title {
+  font-size: 24pt;
+  color: var(--c-white);
+  margin-bottom: 0.6rem;
+}
+
+.Summary {
+  line-height: 1.5;
+  color: var(--c-white);
+}
