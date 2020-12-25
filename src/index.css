@@ -1,9 +1,26 @@
+/* Variables */
+:root {
+  --c-white: #fefefe;
+  --c-primary: #7209b7;
+  
+  --bg-color: #3a0ca3;
 
+  --font-family: 'Comfortaa', cursive;
+}
+
+*,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: var(--bg-color);
 }
 
 a {
