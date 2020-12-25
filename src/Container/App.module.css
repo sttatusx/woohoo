@@ -1,0 +1,42 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ButtonWrapper {
+  bottom: 6rem;
+  position: absolute;
+}
+
+.PrimaryButton,
+.FileInputLabel {
+  all: unset;
+  cursor: pointer;
+  padding: 1.4rem 5rem;
+  border-radius: 0.8rem;
+  color: var(--c-white);
+  text-transform: uppercase;
+  background: var(--c-primary);
+}
+
+.FileInputLabel input[type="file"]{
+  display: none;
+}
+
+.TitleBox {
+  top: 6rem;
+  position: absolute;
+  text-align: center;
+}
+
+.VideoPreview {
+  width: 34%;
+  outline: none;
+  position: relative;
+  border-radius: 1rem;
+}
